@@ -12,11 +12,13 @@ function returnMiddle(arr){
             final.push(arr[(arr.length -1)/2]);
         }
     }
-    return final;
-}
+   
 console.log(returnMiddle([1,2,3,4,5,6,7]));
 console.log(returnMiddle([1,2]));
 console.log(returnMiddle([1,2,3,4,5,6]));
 
 
-
+const person = { firstName: "Khurram" };
+person["lastName"] = "Wassi";
+console.log(person["lastName"]);
+console.log(person);

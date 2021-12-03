@@ -16,7 +16,14 @@ const letterPositions = function(sentence) {
     }
     return results;
 }
-
+function sum(arr){
+    total = 0 
+    for (let i = 0; i < arr.length; i ++){
+        total += arr[i]
+    }
+    return total
+}
 
 
   console.log(letterPositions("lighthouse in the house"))
+  console.log(sum([1,3,5,7]))

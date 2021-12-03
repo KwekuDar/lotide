@@ -17,5 +17,7 @@ function assertArraysEqual(arr1, arr2){
     }else{
         return`❌❌❌ Assertion Failed: [${arr1}] !== [${arr2}]`
     }
-}
-console.log(assertArraysEqual([1,4,3,4], [1,2,3,4]))
+};
+
+module.exports = assertArraysEqual;
+module.exports = sameArray;

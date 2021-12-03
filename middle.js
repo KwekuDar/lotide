@@ -1,5 +1,5 @@
-function returnMiddle(arr){
-    let final = [] 
+function returnMiddle(arr) {
+    let final = []; 
     if(arr.length === 1 || arr.length === 2){
         return final;
     }
@@ -12,13 +12,7 @@ function returnMiddle(arr){
             final.push(arr[(arr.length -1)/2]);
         }
     }
-   
-console.log(returnMiddle([1,2,3,4,5,6,7]));
-console.log(returnMiddle([1,2]));
-console.log(returnMiddle([1,2,3,4,5,6]));
+    return final
+};
 
-
-const person = { firstName: "Khurram" };
-person["lastName"] = "Wassi";
-console.log(person["lastName"]);
-console.log(person);
+module.exports = returnMiddle;
